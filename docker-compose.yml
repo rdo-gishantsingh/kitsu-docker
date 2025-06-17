@@ -6,7 +6,7 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - 80:80
+      - 8800:80
       - 1080:1080
     volumes:
       - zou-storage:/var/lib/postgresql
